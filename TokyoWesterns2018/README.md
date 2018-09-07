@@ -17,7 +17,7 @@ $ file y0k0s0.zip
 y0k0s0.zip: Zip archive data, at least v2.0 to extract
 ```
 
-###y0k0s0.zip
+### y0k0s0.zip
 
 Okay, we have another zip file.  Let's try to extract this one.
 
@@ -39,7 +39,7 @@ new name: mondai1.zip
   inflating: mondai1.zip
 ```
 
-###mondai1.zip
+### mondai1.zip
 
 Looks like that was a luck guess!  Now we have two files, a pcapng file and another zip file, which is renamed from mondai.zip to mondai1.zip.
 
@@ -83,7 +83,7 @@ new name: mondai2.zip
 
 Nice!  We have another zip file now, mondai.zip, which will be renamed to mondai2.zip.
 
-###mondai2.zip
+### mondai2.zip
 
 Other than mondai2.zip, there is also a list.txt file.  Let's see what is in it.
 
@@ -120,7 +120,7 @@ Archive:  mondai2.zip
 
 Nice!  By using fcrackzip with list.txt as a dictionary file, fcrackzip is able to figure out that the password is eVjbtTpvkU.
 
-###1c9ed78bab3f2d33140cbce7ea223894
+### 1c9ed78bab3f2d33140cbce7ea223894
 
 Our file from mondai2.zip does not appear to have an extension, so let's see what type of file it is.
 
@@ -148,7 +148,7 @@ new name: mondai3.zip
 
 Nice!  We have another zip file, which has been renamed to mondai3.zip.
 
-###mondai3.zip
+### mondai3.zip
 
 The other file that was in 1c9ed78bab3f2d33140cbce7ea223894, README.txt contains the following:
 
@@ -170,7 +170,7 @@ Archive:  mondai3.zip
   inflating: secret.txt
 ```
 
-###secret.txt
+### secret.txt
 
 Nice!  Looks like we finally got the secret that is buried in the original mondai.zip file.  secret.txt contains the following:
 
